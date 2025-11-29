@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#court-container {
+  display: inline-block;
+  position: relative;
+}
+
+#court {
+  width: 400px;
+  cursor: crosshair;
+}
+
+.shot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
